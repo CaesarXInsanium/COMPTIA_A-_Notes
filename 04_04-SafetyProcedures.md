@@ -50,4 +50,22 @@ replace entire supply units. dont repair it
 - building codes: fire prevention, electricak codes
 - enviroment regulation: high tect waste disposa
 # Managing Electrical Discharge
-## 
+## What is it?
+- static electricy, does not move
+- generally not harmful to vomputers, unless it start moving again
+- ESD can be damaging to computer components: silicon is sensitive to higher voltages
+- only 100 volts of discharge can damage components. 
+## controlling ESD
+- huminity at over 60% helps control ESD
+- wont prevent all
+- air conditioning and 60% huminity is not practical
+- use hand to self ground, touch metal chassis before touching other component
+- always unplug power connection
+- try not to touch components directly
+- card edges only
+## do not plug self into electrical ground
+## prevention
+- anti static strap: wear on wrist and clip on part of computer case to ground
+- anti static pad: workplace for computer. can connect to strap
+- anti static amt: for sitting and standing
+- anti static bag: carry componets around
