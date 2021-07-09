@@ -1,6 +1,6 @@
 # Practice Tests
 
-## Official 
+## Official
 
 ### 1001
 
@@ -40,4 +40,17 @@
 - optical drives are becomes less and less common and so are HDDs in laptops
 - laptop intergrated GPUs can be replaced apperantly
 - OLEDs have lower light output in comparison to LCDs
+- IMAP is internet standard protocol used for email retrieval. it allows for email to be easily accessed rom multiple mail servers
+- POP3 used port 993
+- IMAP can also use port 993
+- smartphones combine the capabilities of mobile phones with handheld PCs. they are handheld PCs
+- IR: infrared wireless connection. used in remote controls
+- POP3 and IMAP serve the same function of email retrieval
+- POP3 and IMAP both use TLS and SSL
+- TCP port 110 is used when configuring a POP3 connection
+- IEEE 802.3 is ethernet
+- IMAP required TCP port 143, password, username, and Server name. but no SSL of TLS encryption nor port 993
+- iCloud does not provide support of POP
+- PRL: Preferred Roaming List. database inside of phone that contains information onf system selection and acquisition. indicates bands, sub bands, service provider identifiers that can be scanned and connect to them in priority order.
+
 - 
