@@ -1,5 +1,7 @@
 # Practice Tests
 
+currently on section 6
+
 ## Official
 
 ### 1001
@@ -52,5 +54,47 @@
 - IMAP required TCP port 143, password, username, and Server name. but no SSL of TLS encryption nor port 993
 - iCloud does not provide support of POP
 - PRL: Preferred Roaming List. database inside of phone that contains information onf system selection and acquisition. indicates bands, sub bands, service provider identifiers that can be scanned and connect to them in priority order.
-
+- cable modem shares bandwidth with TV connection
+- DSL modem has dedicated bandwidth and twisted pair copper cabling
+- a network bride makes forwarding decisions in software, has fewer network segments than swtiches, older than actual switches
+- a switch makes forwarding decisions in hardware. is sometimes referred to as a multi-port bridge
+- PLC: allows transmission of ethernet of power lines
+- DMZ is a type of network corporate network that lies just outside of the organization's firewal
+- SNAT: STati Netowkr Address Translation does not provide mapping between private IP address and public IP address
+- Universal plug and play allows for automatic configuration and joining of networks with minimal manual steps
 - 
+## TCP/UDP Protocol numbers
+
+- RDP: TCP 3389 -> Microsoft Propriety remote access protocol that allows for remote desktop connection
+- NetBIOS: TCP 137, 138, 139 -> used by WINS server to try and resolve hostname into IP address on windows based LAN
+- NEtBT: allow NEtBIOS to be used over IP networks
+- SMB/CIFS: TCP 445 -> provides access to files, directories and devices. used mainly by windows operating systems
+- SLP: TCP 427 -> allows automated discovery of networked services in LAN
+- AFP: TCP 548 -> file sharing protocol by Apple
+- DHCP: automatic IP configuration
+- LDAP: directory access protocol
+- SNMP: TCP 162 -> used in network management to monitor network attached devices
+- FTP: TCP 20 file transfer, port 21 session administration
+- SSH: TCP 22
+- Telnet: TCP 23
+- SMTP: TCP 25
+- DNS: UDP 53
+- HTTP: TCP 80
+- HTTPS: TCP 443
+- POP3: TCP 110 993
+- IMAP: TCP 143 993
+- IDS vs IPS relays the difference passive and acive network security breaches responses
+- client to site and remote-access VPN types allows a user to connect to a remote network from out in the internet
+- SSL VPN connection does not require dedicated VPN client
+- VLAN: allows for logical grouping of computers that will allow computer hosts to act as if they are attached to the same broadcast domain
+
+## Wifi
+
+| Protocol | Name  | Ghz  | Backwards  | Mbps | Channel Range MHz|
+|---|---|---|---|---|---|
+| 802.11a  | Wifi 1  | 5.0       | N/A     | 54    | 20 |
+| 802.11b  | Wifi 2  | 2.4       | N/A     | 11    |
+| 802.11g  | Wifi 3  | 2.4       | b       | 54    | 20 |
+| 802.11n  | Wifi 4  | 2.4, 5.0  | g, b, a | 600   | 20, 40|
+| 802.11ac | Wifi 5  | 5.0       | N/A     | 6770  | 20, 40, 80, 160|
+| 802.11ax  | Wifi 6  | 2.4  | N/A  |   |
