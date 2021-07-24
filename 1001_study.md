@@ -62,7 +62,25 @@ currently on section 6
 - DMZ is a type of network corporate network that lies just outside of the organization's firewal
 - SNAT: STati Netowkr Address Translation does not provide mapping between private IP address and public IP address
 - Universal plug and play allows for automatic configuration and joining of networks with minimal manual steps
-- 
+- wifi analyser can be used to help making the most optimal WAP placement
+- plenum is the reserved space in the ceiling for power, internet and air conditioning infrastructure is placed
+- STP -> Shielded twisted pair
+- UTP -> Unshielded Twisted pair
+- RJ-45 is usually the ethernet connector standard
+- RJ-11 is used for telephone connection
+- Patch/Straigh-trough cable is used for connecting PC over to network infrastructure
+- Crossover cable is used for connecting PC to one another
+- typical maximun segment lenght for copper twisted pair ethernet cable is 100 meters
+- minimun requirements for twisated pair cabling is Cat 5e
+- cat 6 is minimun required for 10 Gbps
+- all ethernet networks ca hvae UTP STP and coax cabling
+
+### Copper Cabling Specifications
+
+T568A
+
+T568B
+
 ## TCP/UDP Protocol numbers
 
 - RDP: TCP 3389 -> Microsoft Propriety remote access protocol that allows for remote desktop connection
@@ -90,11 +108,77 @@ currently on section 6
 
 ## Wifi
 
-| Protocol | Name  | Ghz  | Backwards  | Mbps | Channel Range MHz|
-|---|---|---|---|---|---|
-| 802.11a  | Wifi 1  | 5.0       | N/A     | 54    | 20 |
-| 802.11b  | Wifi 2  | 2.4       | N/A     | 11    |
-| 802.11g  | Wifi 3  | 2.4       | b       | 54    | 20 |
+| Protocol | Name    | Ghz       | Backwards  | Mbps | Channel Range MHz|
+|----------|---------|-----------|---------|-------|-------|
+| 802.11a  | Wifi 1  | 5.0       | N/A     | 54    | 20    |
+| 802.11b  | Wifi 2  | 2.4       | N/A     | 11    |       | 
+| 802.11g  | Wifi 3  | 2.4       | b       | 54    | 20    |
 | 802.11n  | Wifi 4  | 2.4, 5.0  | g, b, a | 600   | 20, 40|
 | 802.11ac | Wifi 5  | 5.0       | N/A     | 6770  | 20, 40, 80, 160|
-| 802.11ax  | Wifi 6  | 2.4  | N/A  |   |
+| 802.11ax | Wifi 6  | 2.4       | N/A     |       |
+
+## Cat Standards
+
+- Coaxial -> used for carrying cable TV, has protection against EMI, can be used for internet connection
+
+
+| Cat | Speed Mbps | Max Length meters |
+|-----|---------|------------|
+| 3
+| 5 | 100/100/1,000 | 100 |
+| 5e | 100/1,000/10,000 | 100 |
+| 6 | 10,000 | 35-55 |
+| 6a | 10,000 | 100|
+
+## Fiber Optics
+
+### Multimode
+
+- trasnmit up to 2 km
+- costs less than single mode-fiber
+- used LED as light source
+
+### Single mode
+
+- costs more than multi-mode
+- uses laser as source of light
+- can trasmit up to 100 km
+
+## Connectors
+
+HDMI
+: digital connector that can trasmit audio and video
+- Type C connector mini HDMI is used in portable devices such as camcorders and digital cameras
+- s
+
+Thunderbolt
+: propierity Intel connection standard that allows high speed data trasnfer, support for multiple devices over PCI connections
+ 
+- max cable length is 3 meters
+- fiber optic thunderbot chas max cable lenght of 60 meters
+
+| Version | Speed in Gbps | Connector | Max Devices | Features |
+|---------|---------------|-----------|-------------|----------|
+| 1 | 20                  | Mini display Port | 6 | PCIE/displayport data and power |
+| 2 | 20                  | Mini display Port | 6 | PCIE/Displayport data and power |
+| 3 | 40                  | USB-C | 6 | 
+| 4 |
+
+- DVI-I supports both analog and digital signals
+
+## USB standards
+
+| Version |  Speed | Backwards Compatible? |
+|---------|-------|--|
+| USB 1 |  1.5 Mbps low speed, 12 Mbps Full Speed | N/A | 
+| USB 2 | high Speed
+| USB 3.0 | 5 Gbps SuperSpeed | yes|
+| USB 3.1 | 10 Gbps | 
+| USB 3.2 | 20 Gbps |
+| USB 3.3 |
+
+- USB 1 and 2 have max cable range of 5 meters
+- type connectoirs can connect to devices that supply power, host devices, 
+- max number of devices ber Usb host controller, 127
+- type-b connectors connect to target devices or devices that receive power
+- 
