@@ -75,6 +75,12 @@ currently on section 6
 - cat 6 is minimun required for 10 Gbps
 - all ethernet networks ca hvae UTP STP and coax cabling
 
+### SAS
+
+- Serial interface
+- point-to-point connection
+- does not require bus termination
+
 ### Copper Cabling Specifications
 
 T568A
@@ -146,16 +152,21 @@ T568B
 
 ## Connectors
 
+- digital DVI and HDMI can use a passive adapter to switch between them but for analog and digital conversion an active adaptor is required
+- DVI-I/DVI-A can be passively converted to WGA
+- USb to thernet converter enable 802.3 connectiv or ethernet connection via a USB thing
+
 HDMI
 : digital connector that can trasmit audio and video
+
 - Type C connector mini HDMI is used in portable devices such as camcorders and digital cameras
 - s
 
 Thunderbolt
 : propierity Intel connection standard that allows high speed data trasnfer, support for multiple devices over PCI connections
- 
+
 - max cable length is 3 meters
-- fiber optic thunderbot chas max cable lenght of 60 meters
+- fiber optic thunderbolt chas max cable lenght of 60 meters
 
 | Version | Speed in Gbps | Connector | Max Devices | Features |
 |---------|---------------|-----------|-------------|----------|
@@ -168,8 +179,8 @@ Thunderbolt
 
 ## USB standards
 
-| Version |  Speed | Backwards Compatible? |
-|---------|-------|--|
+| Version |  Speed | Backwards Compatible? | Lengtht | 
+|---------|--------|-----------------------|---------|
 | USB 1 |  1.5 Mbps low speed, 12 Mbps Full Speed | N/A | 
 | USB 2 | high Speed
 | USB 3.0 | 5 Gbps SuperSpeed | yes|
@@ -181,4 +192,32 @@ Thunderbolt
 - type connectoirs can connect to devices that supply power, host devices, 
 - max number of devices ber Usb host controller, 127
 - type-b connectors connect to target devices or devices that receive power
+- USB-C is a symmetrical and reversible connector standard
+
+## SATA standards : Serial ATA
+
+- power connector consists of 15 pins
+- data link has 7 pins
+- SATA data link can only connect to a single device
 - 
+
+| Version |  Speed | MAx Cable Lenght |
+|---------|-------|-------------------|
+| 1.0 | 
+| 2.0 | 3 Gbps | 1 meter |
+| 3.0 | 6 Gbps | 1 meter |
+| 3.2 | 16 Gbps | 1 meter |
+
+## PATA
+
+- cable consists of 40 wires
+- ribbon cable
+- two drives can be connected with a single cable. however one must be configured as masteer and other slave
+- max cable lenght of 16 devices
+- 
+
+## SCSI
+
+- was universal connector before the introduction of USB
+- SCSI ID is used to indeity devies on a SCSI device chain
+- LUN -> method of identifying logical partitions in SCSI hard drive.
