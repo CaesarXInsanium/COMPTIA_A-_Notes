@@ -155,6 +155,15 @@ T568B
 - digital DVI and HDMI can use a passive adapter to switch between them but for analog and digital conversion an active adaptor is required
 - DVI-I/DVI-A can be passively converted to WGA
 - USb to thernet converter enable 802.3 connectiv or ethernet connection via a USB thing
+- RS-232 and VGA cables are examples of D-sub connectors
+- BNc connectos have coppwer cabling connector, connector equipped with bayonet style locking mechanism and coaxial cabling
+- RG-59 cables are coaxial, siutable for short distance cable runs, used for analog video and CCTV installations
+- RG-6 cables have coaxial cabling, suitable for longer distance cable runs and used for cable television, and cable modems
+- F-type connectors are coaxial, used for cable television, satellite tTV and cable modems, use RG-59/RG-6 cabling. copper cabling connector, and used for analog video and CCTV installations. 
+- RS-232 can have a DE-9 and DB-25 connectors types connect to a RS-232 port
+- lighting is a propierteray connector type that is USB compliant and reversible but not as good as USB-C
+- molex connecotr is the most common way in which many hardware components receive power
+- 
 
 HDMI
 : digital connector that can trasmit audio and video
@@ -193,13 +202,15 @@ Thunderbolt
 - max number of devices ber Usb host controller, 127
 - type-b connectors connect to target devices or devices that receive power
 - USB-C is a symmetrical and reversible connector standard
+- USB-A allows for easy backwards compatiblity with ealier USB standards
+- 
 
 ## SATA standards : Serial ATA
 
 - power connector consists of 15 pins
 - data link has 7 pins
 - SATA data link can only connect to a single device
-- 
+- eSata connecotrs fo not feature and l shaped port and connector.
 
 | Version |  Speed | MAx Cable Lenght |
 |---------|-------|-------------------|
@@ -219,5 +230,65 @@ Thunderbolt
 ## SCSI
 
 - was universal connector before the introduction of USB
-- SCSI ID is used to indeity devies on a SCSI device chain
+- SCSI ID is used to identify devies on a SCSI device chain
 - LUN -> method of identifying logical partitions in SCSI hard drive.
+
+## RAM
+
+- any motherboard with color coded RAM slots have multi channel support generally speaking
+- ECC RAM can detect and correct errors
+- EEPROM and EPROM are erasable non-volatile memoty types
+- DVD-RAM allows for permanet data storage
+- SDRAM uses system clock i order to synchronuze memory operation with other PC components
+- SDRAM does not offer backwards compatibility
+- different levels of DDR cannot be combined in the same computer since the are all incompatible
+- SODIMM memory is generally used in compact devices such as laptops.
+- DDR: Double Data Rate. each level is twice as fast the previous level. 
+- SODIMM DDR3 SDRAM modules have 204 contact pins
+- SODIMM DDR4 SDRAM has 260 contact pins
+- DDR$ -> has 1 nothc, 288 contact pins, reads and writes 8 words of data per clock cycle
+- DDR3-2666 is known as PC4-21300
+- DDR2-1066 modules are generally known in industry as PC2-8500
+- DDR3-1333 are known as PC3-10600
+- DDR3-1600 max transfer rate is 12800 MB/s
+- DDR4-3200 max trasnfer rate is 25600 MB/s
+- DDR2 SDRAM SODIMM has 200 contact pins
+
+### DDR
+
+- DDR2 perform operations at 4 times system clock. 
+- 240 contact pins
+- 1 nothc on the module contact surface
+
+### STAtic Random Access Memory
+
+- faster than DRAM, more expensive, volatile
+- fount inside of CPU as the cache memory
+
+
+### Dynamic Random Access Memory
+
+- volatile, slower than static, used more common
+- used in memory modules in motherboard
+
+## CDs
+
+- CD-ROM can written once and Read
+- CD-RW write many read many
+- up to 737 MB data storage capacity
+- 80 minutes of uncompressed audio
+
+## DVDs
+
+- DVD-ROM  write once read many
+- DVD-RW write many read many
+- 4.7 GB single layer max
+- 8.5GB single side double layer
+
+## Blu-ray
+
+- BD-R -> write once read many
+- BD-RE -> write many read many
+- 25 GB standard size single layer
+- 50 GB standard size dual layer
+- 7.8 GB single layer mini size
