@@ -74,6 +74,8 @@ currently on section 6
 - minimun requirements for twisated pair cabling is Cat 5e
 - cat 6 is minimun required for 10 Gbps
 - all ethernet networks ca hvae UTP STP and coax cabling
+- PoS -> point of sale
+- KVM switch allows for single set keyboard, mouse and monitor to control connect to multiple computers. swtiching between them should be possible via certain keyboard shortcuts
 
 ### SAS
 
@@ -211,6 +213,7 @@ Thunderbolt
 - data link has 7 pins
 - SATA data link can only connect to a single device
 - eSata connecotrs fo not feature and l shaped port and connector.
+- features include serial interace, L-shape design, hot swappable, allows for connecting sotrage devices to motherboard
 
 | Version |  Speed | MAx Cable Lenght |
 |---------|-------|-------------------|
@@ -225,12 +228,13 @@ Thunderbolt
 - ribbon cable
 - two drives can be connected with a single cable. however one must be configured as masteer and other slave
 - max cable lenght of 16 devices
+- IDE port is used to connect PATA drives to older motherboards. has 2 rows of pins, 40 total, is a parallel interace
 - 
 
 ## SCSI
 
 - was universal connector before the introduction of USB
-- SCSI ID is used to identify devies on a SCSI device chain
+- SCSI ID is used to identify devices on a SCSI device chain
 - LUN -> method of identifying logical partitions in SCSI hard drive.
 
 ## RAM
@@ -292,3 +296,77 @@ Thunderbolt
 - 25 GB standard size single layer
 - 50 GB standard size dual layer
 - 7.8 GB single layer mini size
+- 15.6 GB dual layer mini blu ray
+
+## Flash Memory
+
+- 
+
+## RAID
+
+- 0 -> Disk stripping, single drive failure ruins array. suitable for peformace. Does not offer fault tolerance. 
+- 1 -> Requires at least two drives, offer reliability by creating identical sets of data on each drive. Single drive failure has afull backup. 
+- 5 ->  requires 3 drives. offer increate peformace and fault tolerance. data stripping and mirroring. in case of drive failure data can be recontructed from remaining drives
+- 10 -> nested RAID. minimun 4 drives. Mirroring and stripping.
+- 1+0 -> nested RAID. create striped set from series fo mirrored drives. 
+
+## SSD
+
+- M.2 ports have certai ID that determine the number of PCIe lanens and their speed
+- NVME drives connect to compouter using PCIe lanes
+- flash memory card formats: SD< CompactFLash, Micro-SD, Mini-SD, xD
+- xD memory is a propierity flash memory that is used in older digital cameras
+
+## PCI
+
+- conventional PCI canj have both a 32 bit and 64 bit bus, max trouighput of 533 MB/s. parralel interface
+- PCIe is used to replace PCI, PCI-X, and AGP
+- a single lane is a 2 pair of wires used to transmit data and to receive data.
+- PCIe labels are uised to express the speed of a single lane in MB/s. allow for easy calculation of maxi8mun troughput for entire interface
+- speed of PCIe v1.0 is 250 MB/s
+- speed of PCIe v2.0 is 500 MB/s
+- speed of PCIe v3.0 is 985 MB/s
+- speed of PCIe v4.0 is 1969 MB/s
+
+## CPU
+
+- LGA -> used by AMD with pins on CPU
+- PGA -> pins are found on the motherboard
+- the ZIG facilitates insertions and removals of CPU chip in certain microproccessor sockets
+- RISC -> attempts to improve speed by using few simple intructions
+- 
+
+## Motherboard
+
+- SFF mother types with backwards compatibility with full size ATX cases -> EATX, mATX, mITX
+- rise card allows for additional expansion for motherboard apart from available expansion slots
+
+## Expansion
+
+-
+
+## BIOS
+
+- BIOS settings can be set to default by using jumper cable in motherboard, reseating the CMOS battery, choosing the default configuration in the BIOS interace
+- BIOS contents are stored in EPROM
+- BIOS updates are done in order to repoair damaged BIOS, provide support for new hardware and fix programming bugs
+- aborted BIOS update can render a computer useless
+- supervisor password can be set to lock the BIOS settings as well as a power one password to keep PC from booting
+- UEFI -> replacement of BIOS that allows for mouse support, DRM support, GUI mode, SEcure boot, network access
+- boot sequence is the ordering of drives and media connected to motherboard to select from whcih to boot from.
+- chassis intrusion allows for detecting of possible tampering done with computer
+- CMOS battery helps keep the time as well as the BIOs settings when power is disconnected
+
+
+## Encryption and Security
+
+- BitLocker is a Windows technology stack that allows for full disk drive encryption and security
+- TPM is module built into certain computer that allows for device authentication for hard drive decryption
+- LoJack allows for system location tracking and recovery in case of losage or theft. cosists of application agent and persistence module
+- Secure boot prevent unauthorized loading of malware and OSs 
+
+## Power
+
+- voltages -> +3.3V, +5V, +12V\
+- in older PSUs, -5V rail was used bny the ISA expansion cards
+- -12V rail provides voltage for RS-232, PCI, and LNA circuitry
