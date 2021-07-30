@@ -76,6 +76,7 @@ currently on section 6
 - all ethernet networks ca hvae UTP STP and coax cabling
 - PoS -> point of sale
 - KVM switch allows for single set keyboard, mouse and monitor to control connect to multiple computers. swtiching between them should be possible via certain keyboard shortcuts
+- MDM -> Mobile device management
 
 ### SAS
 
@@ -370,3 +371,94 @@ Thunderbolt
 - voltages -> +3.3V, +5V, +12V\
 - in older PSUs, -5V rail was used bny the ISA expansion cards
 - -12V rail provides voltage for RS-232, PCI, and LNA circuitry
+
+## Computer Build Considerations
+
+- Thin client -> only runs basic application, minimun requriements for host os, must have a network connection. has minimun amount of functionality in order to connect to remote server where the application are run adn heavy lifting is done
+- thicc client -> runs desktop application, must have recomended requirement for OS.
+
+### CAD/CAM Workstation
+
+- high end video
+- SSD drive
+- MAx RAM
+
+### A/V Editing
+
+- Dual monitors
+- spcialized audio adn video card
+- large fast hard drive
+
+### Virtualization
+
+- max RAM
+- MAX CPU cores
+
+### Gaming
+
+- high end cooling
+- SSD drive
+- high end video card
+- HD sound card
+
+## SOHO
+
+- wired conenction types -> USB, serial, ethernet
+- wireless -> bluetooth, wifi/802.11, NFC
+- ad hoc mode allows for devices to communicate with each other directly instead of routing trough intermediatary
+- TCP, AirPrint, Bonjour are all protocols that allow for sharing of networked devices using operating system settings
+
+## Printers
+
+- legacy printer ports include LPT,and DB-25
+- remote printing can be done with IPP, LPD/LPR
+- fuser assembly applies heat and preassure in a laser printer
+- in color laser printer the trasnfer belt picks up hte color layers beofre passing htme on into the paper
+- in laser printing the treansfer roller applies electrical charge to sheet of paper to move image of product over to the paper
+- seperation pad and pickup roller keepprinter from using too many sheets of paper at a time
+- maintanace kit -> spare kit of printer parts for maintanace
+- toner vacuum, magnetic cleaning brush and isopropyl alcohol are used in cleaning laser printer
+- imaging drum is the most expensive component to replace in a inkjet printer
+- thermal printers are generally used in Point of Sale scenarios
+- dot matrix is type of impact printer
+- impact and dot matrix printers can produce duplicate pages
+- dot matrix printer uses a inked ribbon in order to produce imprint on pape
+- single sheet and roll of printing paper can be used in dot matrix printer
+- virtual printers use the XPS format
+
+
+## The Cloud
+
+- hybrid cloud is when some stuff is run in the cloud and some on premises. sometimes using multiple cloud providors
+- rapid elesticity allows for rapid allocation of computing resources in response to increase in demand
+- on demand self service allows for volume and type of compueting resources to be manually determined by the consumer
+- s
+
+## Virtualization Work
+
+- emulator refers to hardware or software that bridges gap between different OS by enabling software to run in incopatible operating systems
+- VM sprawl is when a large number of VMs are deplayoed without proper administration
+- vm escape -> when a software or virus detects that operating system is running as a virtual machine and escape into the host operating system
+
+## Troubleshooting
+
+Steps
+
+1. Identify Problem
+2. Conduct Research
+3. Develop Theory
+4. test theory
+5. Establish plan of action
+6. Implement Solution
+7. Verify intended Functionality
+8. Document Findings
+9. Follow up with client
+
+- stuck pixel ->
+- dim LCD display might indicate problem with backlight or inverter
+- long vertical streaks might indicate damage to imaging drum
+- depleted toner will cause faded and blank printed pages
+- ghost images in printed paper might indicate problem with cleaning proccess
+- toner falling of page might indicate problem with fuser assembly
+- garbled characters might indicate problem withprinter driver
+- IPv4 address in range 169.254.0.1 through 169.254.255.254 indicates problem with DHCP configuration
