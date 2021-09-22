@@ -106,8 +106,11 @@ T568B
 | FTP  | TCP  | 20,21         | File Transfer protocol. 20 is file transfer and 21 is session authentication
 | SSH  | TCP  | 22            | Allows secure remote and encrypted authentication and management via command line
 | Telnet | TCP | 23           | allows unsecure remote connection and management via command line before SSH
-| RDP  | TCP  | 
-- RDP: TCP 3389 -> Microsoft Propriety remote access protocol that allows for remote desktop connection
+| NetBIOs | TCP | 137,138,139 | used by WINS server to resolve hostnames into IP address 
+| RDP  | TCP  | 3389          | Microsoft propriety remote access protocol |
+
+| NetBt | TCP | N/A           | allows NetBIOs ot be used over IP networks
+
 - NetBIOS: TCP 137, 138, 139 -> used by WINS server to try and resolve hostname into IP address on windows based LAN
 - NEtBT: allow NEtBIOS to be used over IP networks
 - SMB/CIFS: TCP 445 -> provides access to files, directories and devices. used mainly by windows operating systems
